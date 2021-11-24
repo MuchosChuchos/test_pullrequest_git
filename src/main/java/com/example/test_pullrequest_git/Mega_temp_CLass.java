@@ -8,7 +8,7 @@ public class Mega_temp_CLass {
 
     @PostMapping("123")
     HttpStatus postSmth() {
-        return HttpStatus.NOT_FOUND;
+        return HttpStatus.NOT_IMPLEMENTED;
     }
 
 }
