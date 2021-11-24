@@ -4,6 +4,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController("qq")
@@ -17,6 +18,11 @@ public class JustController {
     @DeleteMapping
     public String gelete() {
         return "deleted";
+    }
+
+    @PutMapping("create")
+    public HttpStatus create() {
+        return HttpStatus.CREATED;
     }
 
 }
