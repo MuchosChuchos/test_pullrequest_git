@@ -6,10 +6,4 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class JavaClasss {
 
-
-    @GetMapping
-    String getSir(){
-        return "dfas";
-    }
-
 }
