@@ -10,11 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController("qq")
 public class JustController {
 
-    @GetMapping
-    protected ResponseEntity<?> tempasas() {
-        return new ResponseEntity<>(HttpStatus.HTTP_VERSION_NOT_SUPPORTED);
-    }
-
     @DeleteMapping
     public String gelete() {
         return "deleted";
