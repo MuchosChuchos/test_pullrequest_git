@@ -6,8 +6,8 @@ import org.springframework.web.client.HttpStatusCodeException;
 
 public class Mega_temp_CLass {
 
-    @PostMapping("123")
-    HttpStatus postSmth() {
+    @PostMapping
+    HttpStatus postExactSomething() {
         return HttpStatus.NOT_IMPLEMENTED;
     }
 
