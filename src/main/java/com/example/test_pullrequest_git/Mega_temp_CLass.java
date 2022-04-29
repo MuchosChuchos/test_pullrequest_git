@@ -5,7 +5,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.client.HttpStatusCodeException;
 
 public class Mega_temp_CLass {
-    HttpStatus postSmth() {
+
+    @PostMapping
+    HttpStatus postExactSomething() {
         return HttpStatus.NOT_IMPLEMENTED;
     }
 
