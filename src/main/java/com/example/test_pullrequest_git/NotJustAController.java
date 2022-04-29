@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController("qq")
-public class JustController {
+public class NotJustAController {
 
     @DeleteMapping
     public String gelete() {
